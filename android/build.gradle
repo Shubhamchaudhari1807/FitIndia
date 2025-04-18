@@ -1,0 +1,30 @@
+
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.layout.buildDirectory
+}
+
+// Correct plugins block, migrating away from `apply plugin:`
+plugins {
+    id 'com.android.application' version '7.2.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.7.10' apply false
+    id 'com.google.gms.google-services' version '4.3.10' apply false // If you're using Firebase or Google services
+}
+
