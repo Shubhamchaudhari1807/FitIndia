@@ -41,9 +41,17 @@ To set up the FitIndia app locally, follow the steps below.
    ```bash
    git clone https://github.com/Shubhamchaudhari1807/FitIndia.git
 2 . Navigate into the project directory
+     ```bash
+     
     cd FitIndia
+    
 3. Install Dependencies
+      ```bash
+      
     flutter pub get
-4. Run The project 
+   
+5. Run The project
+     ```bash
+     
     flutter run
     
