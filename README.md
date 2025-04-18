@@ -38,11 +38,9 @@ To set up the FitIndia app locally, follow the steps below.
 
 1. Clone the repository to your local machine:
 
-   ```bash
+      ```bash
    git clone https://github.com/Shubhamchaudhari1807/FitIndia.git
 2 . Navigate into the project directory
-   
-     ```bash
      
     cd FitIndia
     
