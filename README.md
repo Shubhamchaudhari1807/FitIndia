@@ -1,49 +1,42 @@
-# Fitness Workout Tracker, Meal Planner, Sleep Tracker App UI UX Design Convent Into Flutter Code
+# FitIndia - Gym Tracking App
 
-# codeforany @codeforany
+## Overview
 
-- [Youtube Full Playlist: Fitness Workout Tracker, Meal Planner, Sleep Tracker App UI UX Design Convent Into Flutter Code](https://www.youtube.com/playlist?list=PLzcRC7PA0xWR1AY-uvplpAYoDFzRdUHgQ)
-- [Youtube Channel: @codeforany](https://www.youtube.com/channel/UCdQTp9wRK5vAOlEQZf9PHSg)
-- [Youtube Channel Subscribe: @codeforany](https://www.youtube.com/channel/UCdQTp9wRK5vAOlEQZf9PHSg?sub_confirmation=1)
+**FitIndia** is a mobile app designed for gym-goers to track their workouts, set goals, and stay motivated. It allows users to log their exercises, monitor progress, and set personalized fitness targets. Whether you're just starting out or are an experienced gym enthusiast, FitIndia is the perfect companion for your fitness journey.
 
-- [Youtube Video Part-1: App Induction](https://youtu.be/GZzMnrGNZEA)
-- [Youtube Video Part-2: Get Startup And Signup UI](https://youtu.be/pDoH7oheZRk)
-- [Youtube Video Part-3: Complete Profile UI, Goal UI, Login UI](https://youtu.be/GrINadeF1Ic)
-- [Youtube Video Part-4: Bottom Tab Bar UI With Floating Button](https://youtu.be/JYJbK7vTCJk)
-- [Youtube Video Part-5: Home Tab-1 TabView UI With Pie Chart](https://youtu.be/jd6C5qCQ0B4)
-- [Youtube Video Part-6: Home Tab-2 Line Chart Activity Status](https://youtu.be/VwikPX-9_rs)
-- [Youtube Video Part-7: Home Tab-3 Workout Progress Line Chart](https://youtu.be/UX0UuPx8aRg)
-- [Youtube Video Part-8: Activity Tracker UI And Notification UI](https://youtu.be/OjvOxsVVJSo)
-- [Youtube Video Part-9: Profile Tab UI And Finished Workout UI](https://youtu.be/cF-x4xq99fw)
-- [Youtube Video Part-10: Workout Tracker Tab UI](https://youtu.be/AUIR0RKRQwo)
-- [Youtube Video Part-11: Workout Details UI Screen](https://youtu.be/ftAi1kfXObk)
-- [Youtube Video Part-12: Exercises Step Details UI Screen](https://youtu.be/3Dfn54U340k)
-- [Youtube Video Part-13: Workout Schedule UI, Calendar Timeline UI ](https://youtu.be/vARI416CLUA)
-- [Youtube Video Part-14: Workout Schedule Timeline UI](https://youtu.be/G2jFJ3-HmkU)
-- [Youtube Video Part-15: Add Workout Schedule UI And Mark Done](https://youtu.be/LL52gqRlMs8)
-- [Youtube Video Part-16: Meals Planner UI With Line Chart UI](https://youtu.be/SqAwLgftzBI)
-- [Youtube Video Part-17: Meals Food Details UI Screen](https://youtu.be/ppzr1VOT51s)
-- [Youtube Video Part-18: Food Info Recipe Details UI Screen](https://youtu.be/isu4tYpcwcI)
-- [Youtube Video Part-19: Meal Schedule UI Screen](https://youtu.be/Gvhz0PZIrTs)
-- [Youtube Video Part-20: Sleep Tracker UI Screen](https://youtu.be/8QrKRt3Avkc)
-- [Youtube Video Part-21: Sleep Schedule And Add Alarm UI Screen](https://youtu.be/GacvUiYp0uU)
-- [Youtube Video Part-22: Progress Photos Tab UI Screen](https://youtu.be/0HC306fRSg0)
-- [Youtube Video Part-23: Comparison UI and Result UI Screen](https://youtu.be/puds7ztrQ-c)
+## Features
 
+- **User Authentication**: Register and log in using your email and password.
+- **Workout Logging**: Record your gym workouts, including exercises, sets, reps, and weights lifted.
+- **Goal Setting**: Set fitness goals for strength, endurance, or weight loss and track your progress.
+- **Progress Tracking**: Monitor your performance over time with simple stats and charts.
+- **Workout History**: View your past workouts to track improvements.
+- **Notifications**: Get reminders to stay consistent and achieve your fitness goals.
+- **Personal Profile**: Create a profile with your fitness statistics, including weight and body measurements.
+- **Motivational Tips**: Get fitness tips and advice to help you stay on track.
 
-UI UX App Design by: [Pixel True](https://www.pixeltrue.com/free-ui-kits/fitness-app-ui-kit)
+## Technologies Used
 
-A new Flutter project.
+- **Frontend**: Flutter (Dart)
+- **Backend**: Firebase (Authentication, Firestore for data storage)
+- **Other Libraries**: 
+  - `provider` for state management
+  - `flutter_local_notifications` for reminders
+  - `charts_flutter` for progress tracking
 
-## Getting Started
+## Setup Instructions
 
-This project is a starting point for a Flutter application.
+To set up the FitIndia app locally, follow the steps below.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/docs/get-started/install) installed
+- [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/) with Flutter plugin
+- Firebase account for setting up Authentication and Firestore
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Clone the Repository
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Shubhamchaudhari1807/FitIndia.git
